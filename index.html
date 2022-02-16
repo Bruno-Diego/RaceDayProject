@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scrypt.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Race Day</title>
+</head>
+<body>
+    <header>
+        <h1>Race Day</h1>
+        <h3>It's Race Day and we are giving numbers to the competitors!</h3>
+    </header>
+    <main>
+        <div>
+            <p>Type your age:</p>
+            <input id="age" type="number">
+            <p>Choose the time you arrived</p>
+            <button id="early" value="clickme" onclick="early();">Arrived before 11:00am</button>
+            <button id="later" onclick="later();">Arrived after 11:00am</button>
+        </div>
+        <div id="div-result"></div>
+    </main>
+</body>
+</html>
